@@ -1,3 +1,4 @@
+/*created by prashant shukla */
 
 var paddle2 =10,paddle1=10;
 
@@ -21,6 +22,7 @@ var ball = {
 
 function setup(){
   var canvas =  createCanvas(700,600);
+  canvas.parent("canvas");
 }
 
 
@@ -114,8 +116,7 @@ function move(){
    }
   if (ball.x-2.5*ball.r/2< 0){
   if (ball.y >= paddle1Y&& ball.y <= paddle1Y + paddle1Height) {
-    ball.dx = -ball.dx+0.5;
-    playerscore++;
+    ball.dx = -ball.dx+0.5; 
   }
   else{
     pcscore++;

@@ -14,9 +14,17 @@ body
 }
 .heading button{
     float: right;
-    border: 1px solid white;
+    border: 1px solid rgb(243, 0, 0);
 }
-#start,#status
-{
-    font-size: 22px;
+.footer{
+    background-color: rgb(12, 232, 236);
+    width: 100%;
+    margin-bottom: 0px;
+    color: white;
+    line-height: 2;
+    bottom: 0px;
+    position: sticky;
+}
+.modal-body{
+    text-align: left;
 }
